@@ -1,0 +1,80 @@
+/* Estilo geral */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #d6336c;
+}
+
+h2 {
+  color: #6a0572;
+  margin-top: 40px;
+}
+
+/* Linha do tempo */
+#timeline ul {
+  list-style: none;
+  padding: 0;
+}
+
+#timeline li {
+  background: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  width: 60%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Galeria */
+.fotos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.fotos img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.fotos img:hover {
+  transform: scale(1.1); /* zoom ao passar o mouse */
+}
+
+/* Mensagem */
+#mensagem .texto {
+  background: white;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+button {
+  background: #d6336c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #a61e4d;
+}
