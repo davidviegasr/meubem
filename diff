@@ -1,0 +1,45 @@
+<!Doctipe html>
+<Html lang= "pt br">
+<Head>
+<meta charset="UTF-8">
+  <title>Nosso Amor 💖</title>
+  <link rel="stylesheet" href="style.css"> <!-- conecta o CSS -->
+</head>
+<body>
+  <header>
+    <h1>Para o Amor da Minha Vida ❤️</h1>
+    <p>Um site feito com carinho só para você</p>
+  </header>
+  <!-- Linha do tempo -->
+  <section id="timeline">
+    <h2>Nossa História</h2>
+    <ul>
+      <li><strong>2022:</strong> Nosso primeiro encontro ✨</li>
+      <li><strong>2023:</strong> Nossa primeira viagem juntos 🌎</li>
+      <li><strong>2024:</strong> Um ano cheio de momentos incríveis 💕</li>
+    </ul>
+  </section>
+
+  <!-- Galeria de fotos -->
+  <section id="galeria">
+    <h2>Nossas Fotos</h2>
+    <div class="fotos">
+      <img src="https://placekitten.com/300/200" alt="Foto 1">
+      <img src="https://placekitten.com/301/200" alt="Foto 2">
+      <img src="https://placekitten.com/302/200" alt="Foto 3">
+    </div>
+  </section>
+
+  <!-- Mensagem surpresa -->
+  <section id="mensagem">
+    <h2>Mensagem Especial</h2>
+    <p class="texto">Cada momento ao seu lado é único e inesquecível. 💖</p>
+    <button onclick="mostrarSurpresa()">Clique para a surpresa</button>
+    <p id="surpresa" style="display:none;">
+      Você é a melhor parte da minha vida! 🌹
+    </p>
+  </section>
+
+  <script src="script.js"></script> <!-- conecta o JavaScript -->
+</body>
+</html>
